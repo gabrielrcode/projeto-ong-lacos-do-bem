@@ -30,7 +30,7 @@ Inclui apresentação dos projetos e formulário para quem deseja fazer parte da
 ## 📂 Organização dos arquivos
 
 ```text
-lacos-do-bem/
+projeto-ong-lacos-do-bem/
 ├── html/
 │   ├── index.html          # Página inicial
 │   ├── projetos.html       # Projetos sociais
