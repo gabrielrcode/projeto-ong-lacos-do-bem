@@ -30,11 +30,21 @@ Inclui apresentação dos projetos e formulário para quem deseja fazer parte da
 ## 📂 Organização dos arquivos
 
 ```text
-html/       → Páginas do site
-css/        → Estilos
-js/         → Scripts e funcionalidades
-imagens/    → Imagens do projeto
-README.md   → Documentação do projeto
+lacos-do-bem/
+├── html/
+│   ├── index.html          # Página inicial
+│   ├── projetos.html       # Projetos sociais
+│   └── cadastro.html       # Formulário de participação
+├── css/
+│   └── style.css           # Estilos do site
+├── js/
+│   ├── armazenamento.js    # Salva as preferências
+│   ├── menu.js             # Controla os menus
+│   ├── projetos.js         # Gera os cartões de projetos
+│   ├── formulario.js       # Valida o formulário
+│   └── app.js              # Controla a navegação
+├── imagens/                # Imagens do site
+└── README.md               # Documentação do projeto
 ```
 
 ## 📚 Aprendizados
