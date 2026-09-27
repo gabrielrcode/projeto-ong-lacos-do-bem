@@ -1,3 +1,8 @@
+import {
+  salvarPreferenciaAjuda,
+  recuperarPreferenciaAjuda
+} from "./armazenamento.js";
+
 // Visibilidade da mensagem de agradecimento ao final do formulário
 
 function iniciarCadastro() {
@@ -137,3 +142,5 @@ setTimeout(function () {
 
   });
 }}
+
+export { iniciarCadastro };

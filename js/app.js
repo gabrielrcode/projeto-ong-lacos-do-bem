@@ -1,3 +1,7 @@
+import "./menu.js";
+import { iniciarCadastro } from "./formulario.js";
+import { renderizarProjetos } from "./projetos.js";
+
 // Mostrando conteúdo guardado dentro do template
 
 const conteudoPrincipal = document.querySelector("#conteudo-principal");
