@@ -47,6 +47,26 @@ projeto-ong-lacos-do-bem/
 └── README.md               # Documentação do projeto
 ```
 
+## ℹ️ Sobre o cadastro
+
+Este é um projeto acadêmico. O formulário verifica os campos e
+simula a conclusão do cadastro, sem enviar informações para um servidor.
+
+Apenas a forma de participação escolhida é salva no localStorage
+do navegador. Nome, CPF, telefone, e-mail e endereço não são salvos
+pela aplicação.
+
+## 🧭 Navegação
+
+A entrada da aplicação é `html/index.html`, que reúne os templates
+de Início, Projetos e Cadastro.
+
+O JavaScript troca o conteúdo principal sem recarregar a página
+inteira, usando endereços como `#/inicio`, `#/projetos` e `#/cadastro`.
+
+Os arquivos `projetos.html` e `cadastro.html` foram mantidos da
+versão anterior. Para usar a SPA, inicie pelo `html/index.html`.
+
 ## 📚 Aprendizados
 
 - Manipulação de elementos da página com JavaScript
