@@ -22,10 +22,47 @@ Inclui apresentação dos projetos e formulário para quem deseja fazer parte da
 
 ## ▶️ Como rodar
 
-1. Baixe ou clone o repositório.
-2. Abra a pasta do projeto no **Visual Studio Code**.
-3. Com a extensão **Live Server** instalada, clique com o botão direito no arquivo `html/index.html`.
-4. Selecione **Open with Live Server** para abrir o site no navegador.
+1. Instale o Node.js 24 ou uma versão compatível com o Vite.
+2. Abra a pasta do projeto no Visual Studio Code.
+3. No terminal, instale as dependências:
+
+```powershell
+npm.cmd ci
+```
+
+4. Inicie o site:
+
+```powershell
+npm.cmd run dev
+```
+
+Abra o endereço indicado no terminal, com `/html/index.html`.
+
+## 📦 Versão de produção
+
+Para gerar os arquivos otimizados na pasta dist:
+
+```powershell
+npm.cmd run build
+```
+
+O Vite prepara o JavaScript e o CSS, e o HTML Minifier Terser minifica o HTML automaticamente.
+
+Para testar essa versão no computador:
+
+```powershell
+npm.cmd run preview
+```
+
+## 🖼️ Otimização das imagens
+
+Usei o Sharp para criar versões WebP das imagens. Mantive alimentos.jpg porque ficou menor que sua versão WebP. Os arquivos originais também estão guardados na pasta imagens.
+
+Para executar a conversão novamente:
+
+```powershell
+node otimizar-imagens.mjs
+```
 
 ## 📂 Organização dos arquivos
 

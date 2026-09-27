@@ -1,3 +1,7 @@
+import imagemAlimentos from "../imagens/alimentos.jpg";
+import imagemLeitura from "../imagens/leitura.webp";
+import imagemVoluntarios from "../imagens/lacosdobem.webp";
+
 const dadosProjetos = [
  {
     id: "mesa-solidaria",
@@ -5,7 +9,7 @@ const dadosProjetos = [
     titulo: "Mesa Solidária",
     descricao: "Arrecadamos alimentos e organizamos cestas básicas para apoiar famílias em situação de vulnerabilidade.",
     contribuicao: "Contribua com alimentos não perecíveis e ajude a levar solidariedade à mesa de quem precisa.",
-    imagem: "../imagens/alimentos.jpg",
+    imagem: imagemAlimentos,
     alt: "Entrega de alimentos em uma ação solidária"
  },
 
@@ -15,7 +19,7 @@ const dadosProjetos = [
     titulo: "Laços de Aprendizagem",
     descricao: "Promovemos atividades de leitura e apoio escolar para crianças e adolescentes da comunidade.",
     contribuicao: "Você pode ajudar doando livros e materiais escolares ou participando como voluntário nas atividades.",
-    imagem: "../imagens/leitura.jpg",
+    imagem: imagemLeitura,
     alt: "Crianças reunidas em uma atividade de leitura"
   },
 
@@ -25,7 +29,7 @@ const dadosProjetos = [
     titulo: "Doe seu tempo",
     descricao: "Dedique algumas horas para fazer a diferença na vida de outras pessoas.",
     contribuicao: "Ajude a organizar doações, preparar atividades e realizar nossas ações comunitárias.",
-    imagem: "../imagens/lacosdobem.png",
+    imagem: imagemVoluntarios,
     alt: "Grupo de voluntários reunidos em um mutirão comunitário"
   }
 ]
@@ -57,3 +61,5 @@ function renderizarProjetos() {
     lista.appendChild(copia);
   });
 }
+
+export { renderizarProjetos };

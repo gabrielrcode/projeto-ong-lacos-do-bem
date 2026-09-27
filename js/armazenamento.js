@@ -23,3 +23,5 @@ function recuperarPreferenciaAjuda() {
     return "";
   }
 }
+
+export { salvarPreferenciaAjuda, recuperarPreferenciaAjuda };

@@ -907,3 +907,38 @@ nav a:focus-visible {
   }
 }
 
+/* Alto contraste conforme a preferência do sistema */
+@media (prefers-contrast: more) {
+  :root {
+    --cor-primaria: #000000;
+    --cor-primaria-escura: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-fundo: #ffffff;
+    --cor-superficie: #ffffff;
+    --cor-destaque: #ffffff;
+    --cor-texto: #000000;
+    --cor-borda: #000000;
+    --cor-campo: #ffffff;
+    --cor-sombra: transparent;
+    --cor-sombra-flutuante: transparent;
+    --cor-foco: #000000;
+  }
+
+  .campo input,
+  .campo select,
+  .campo textarea {
+    color: #000000;
+  }
+
+  .campo input::placeholder,
+  .campo textarea::placeholder {
+    color: #000000;
+    opacity: 1;
+  }
+
+  :focus-visible {
+    outline: 3px solid #000000 !important;
+    outline-offset: 3px !important;
+    box-shadow: 0 0 0 6px #ffffff !important;
+  }
+}

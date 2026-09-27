@@ -1,0 +1,22 @@
+{
+  "name": "ong",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido em **HTML, CSS e JavaScript** para apresentar projetos sociais e incentivar a participação de voluntários.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postbuild": "html-minifier-terser dist/html/index.html --collapse-whitespace --conservative-collapse --remove-comments -o dist/html/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.35.4",
+    "vite": "^8.3.1"
+  }
+}
