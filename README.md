@@ -47,5 +47,5 @@ README.md   → Documentação do projeto
 
 ---
 
-👨‍💻 Desenvolvido por Gabriel Augusto Rocha Lima.
+👨‍💻 Desenvolvido por [Gabriel Augusto Rocha Lima.](https://www.linkedin.com/in/gabr1elrochadev/)
 
