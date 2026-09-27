@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta
+        name="description"
+        content="Conheça os projetos da ONG Laços do Bem e saiba como participar das nossas ações solidárias.">
+        <title>Projetos - ONG Laços do Bem</title>
+
+        <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Manrope:wght@400;700&display=swap"
+        >
+
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+        <div class="logo">
+            <h1>
+                <img
+                src="../imagens/logo.png"
+                alt="ONG Laços do Bem"
+                class="logo-imagem">
+            </h1>
+        </div>
+
+        <button
+            type="button"
+            class="menu-toggle"
+            aria-expanded="false"
+            aria-controls="menu-principal"
+            >
+
+            <span aria-hidden="true">☰</span>
+            Menu
+        </button>
+
+        <nav id="menu-principal" aria-label="Menu principal">
+            <a href="index.html">Início</a>
+
+        <div class="menu-projetos">
+            <button
+            type="button"
+            class="submenu-toggle"
+            aria-expanded="false"
+            aria-controls="submenu-projetos"
+            >
+            Projetos
+            <span aria-hidden="true">▾</span>
+            </button>
+
+            <ul id="submenu-projetos" class="submenu" hidden>
+                <li>
+                    <a href="projetos.html" aria-current="page">
+                    Todos os Projetos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="projetos.html#mesa-solidaria">Mesa Solidária</a>
+                </li>
+                <li>
+                    <a href="projetos.html#aprendizagem">Laços de Aprendizagem</a>
+                </li>
+                <li>
+                    <a href="projetos.html#doe-tempo">Doe seu Tempo</a>
+                </li>
+            </ul>
+            </div>
+
+            <a href="cadastro.html">Faça Parte</a>
+        </nav>
+        </header>
+
+        <main>
+            <section class="apresentacao">
+                <h2>Solidariedade que se transforma em ação</h2>
+                <p>Conheça os projetos que levam alimento
+                e acolhimento à nossa comunidade.</p>
+            </section>
+
+            <section id="projetos">
+                <h2>Conheça nossas iniciativas</h2>
+
+                <div class="lista-projetos">
+
+                    <article class="projeto" id="mesa-solidaria">
+                        <span class="badge">Alimentação</span>
+                        <h3>Mesa Solidária</h3>
+                        <p>
+                            Arrecadamos alimentos e organizamos cestas básicas
+                         para apoiar famílias em situação de vulnerabilidade.</p>
+                        <p>
+                            Contribua com alimentos não perecíveis e ajude
+                            a levar solidariedade à mesa de quem precisa.
+                        </p>
+                        <img
+                        src="../imagens/alimentos.jpg"
+                        alt="Entrega de alimentos em uma ação solidária"
+                        class="imagem-projeto"
+                        >
+                    </article>                    
+
+                    <article class="projeto" id="aprendizagem">
+                        <span class="badge">Educação</span>
+                        <h3>Laços de Aprendizagem</h3>
+                        <p> Promovemos atividades de leitura e apoio escolar
+                            para crianças e adolescentes da comunidade.
+                        </p>
+                        <p>
+                        Você pode ajudar doando livros e materiais escolares
+                        ou participando como voluntário nas atividades.
+                        </p>    
+                        <img
+                        src="../imagens/leitura.jpg"
+                        alt="Crianças reunidas em uma atividade de leitura"
+                        class="imagem-leitura"
+                        >
+                    </article>
+                    
+                    <article class="projeto" id="doe-tempo">
+                        <span class="badge">Voluntariado</span>
+                        <h3>Doe seu tempo</h3>
+                        <p>
+                        Dedique algumas horas para fazer a diferença
+                        na vida de outras pessoas.
+                        </p>
+                        <p>
+                        Ajude a organizar doações, preparar atividades
+                        e realizar nossas ações comunitárias.
+                        </p>
+                        <img
+                        src="../imagens/lacosdobem.png"
+                        alt="Grupo de voluntários reunidos em um mutirão comunitário"
+                        class="imagem-lacos"
+                        >
+                    </article>
+                    
+                </div>
+                    <div class="botaopj">
+                    <a href="cadastro.html">QUERO FAZER PARTE</a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+        <div class="footer1">
+        <p>ONG Laços do Bem — Solidariedade que transforma.</p>
+  </div>
+
+    <div class="footer2">
+    <p>
+      &copy; 2026 ONG Laços do Bem.
+      Todos os direitos reservados.
+    </p>
+    </div>
+    </footer>
+    <script src="../js/menu.js"></script>
+    </body>
+
+</html>
